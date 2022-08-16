@@ -3349,21 +3349,21 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
-│「 Hi 👋 」
+│「 مرحبا 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  How Are You? 😄
+┌┤✑  كيف حالك? 😄
 │└───────────────┈ ⳹
-│ 「 BOT INFO 」
-│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✙ 𝗢𝘄??𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+│ 「 معلومات البوت 」
+│✙ السرعة : ${latensie.toFixed(4)} miliseconds
+│✙ مدة العرض : ${runtime(process.uptime())}
+│✙ أسم البوت: ${global.botname}
+│✙ أسم المالك: ${global.ownername}
+│✙ المالك: ${global.owner}
+│✙ اسم المضيف : ${os.hostname()}
 │✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  Please Select The Button Below
+   │✑  يرجى تحديد الزر ادناه
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
