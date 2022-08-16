@@ -3288,46 +3288,46 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
                             hydratedFooterText: `┌─❖
-│「 Hi 👋 」
+│「 مرحباً👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Cheems Bot With You Forever 
-││✑  🐶🖐️!!
+┌┤✑  اليكس بوت معك إلى الأبد
+││✑  😄🖐️!!
 │└───────────────┈ ⳹
-│ 「 BOT INFO 」
-│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+│ 「 معلومات البوت 」
+│✙ السرعة : ${latensie.toFixed(4)} miliseconds
+│✙ وقت التشغيل : ${runtime(process.uptime())}
+│✙ أسم البوت : ${global.botname}
+│✙ أسم المالك : ${global.ownername}
+│✙ رقم المالك : ${global.owner}
+│✙ أسم المضيف : ${os.hostname()}
+│✙ االنظام الأساسي: ${os.platform()}
+│✙ إجمالي المستخدم : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  Please Select The Button Below
+   │✑  يرجى تحديد الزر أدناه
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'اليوتيوب📍',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🔖',
+                                displayText: 'السكربت🔖',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '💎جميع الأوامر💎',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '⚡قائمة الأوامر⚡',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '👤المالك👤',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3355,39 +3355,39 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │└───────────────┈ ⳹
 │ 「 معلومات البوت 」
 │✙ السرعة : ${latensie.toFixed(4)} miliseconds
-│✙ مدة العرض : ${runtime(process.uptime())}
+│✙ وقت التشغيل : ${runtime(process.uptime())}
 │✙ أسم البوت: ${global.botname}
 │✙ أسم المالك: ${global.ownername}
-│✙ المالك: ${global.owner}
+│✙ رقم المالك: ${global.owner}
 │✙ اسم المضيف : ${os.hostname()}
-│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+│✙ النظام الأساسي : ${os.platform()}
+│✙ إجمالي المستخدم : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
    │✑  يرجى تحديد الزر ادناه
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'اليوتيوب📍',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🔖',
+                                displayText: 'السكربت🔖',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText:'💎حميع الأوامر💎',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '⚡قائمة الأوامر⚡',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '👤المالك👤',
                                     id: `${prefix}owner`
                                 }
                             }]
